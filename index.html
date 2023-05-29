@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>匯率轉換計算機</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="converter.js"></script>
+</head>
+<body>
+    <h1>匯率轉換計算機</h1>
+    <form id="converterForm">
+        <label for="amount">請輸入台幣金額：</label>
+        <input type="number" id="amount" step="0.01">
+        <button type="button" onclick="convert()">執行計算</button>
+    </form>
+    <div id="result"></div>
+    <button type="button" onclick="reset()">重新開始</button>
+    <script src="converter.js"></script>
+</body>
+</html>

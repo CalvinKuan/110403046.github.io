@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 150px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button[type="button"] {
+    margin-left: 20px;
+}
+
+p {
+    color: #333;
+    margin: 5px;
+}
